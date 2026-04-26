@@ -1,0 +1,5 @@
+flask
+psycopg2-binary
+flask-cors
+azure-identity
+azure-keyvault-secrets

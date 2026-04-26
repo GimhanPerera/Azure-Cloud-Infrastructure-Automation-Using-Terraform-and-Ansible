@@ -1,0 +1,13 @@
+- hosts: database
+  become: yes
+
+  tasks:
+
+    - name: Update apt
+      apt:
+        update_cache: yes
+
+    - name: Copy init.sql to database VM
+      copy:
+        src: ./db-files/init.sql
+        dest: /tmp/init.sql
