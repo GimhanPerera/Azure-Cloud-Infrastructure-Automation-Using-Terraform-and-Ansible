@@ -25,7 +25,8 @@ The infrastructure is designed following production-style best practices includi
 
 ## Architecture Diagram
 
-> 
+<img width="1103" height="745" alt="tf-mega-1 drawio" src="https://github.com/user-attachments/assets/24fa8e1f-33d8-455f-be3b-4bafe7bee616" />
+
 
 ---
 
@@ -417,6 +418,10 @@ This will:
 * Configure backend environment
 * Fetch secrets from Key Vault
 * Deploy Python REST API
+
+---
+
+Full application code: https://github.com/GimhanPerera/sample-tier3-web-application.git
 
 ---
 
